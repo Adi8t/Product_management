@@ -10,7 +10,7 @@ from app.models import Category, Product
 # Category API
 # -----------------------------
 class CategoryAPIView(APIView):
-    permission_classes = [AllowAny]  # sab access kar sakte hai
+    permission_classes = [AllowAny] 
 
     # GET all categories
     def get(self, request):
